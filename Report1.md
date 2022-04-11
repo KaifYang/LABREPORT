@@ -76,13 +76,18 @@ scp WhereAmI.java cs15lsp22xx@ieng6.ucsd.edu:~/
 
 1. Use the command `ssh-keygen` to generate a key. (Use `ssh-keygen -t ed25519` instead if you are using windows system)
 2. Then follow this process:
+
 ```
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 <Enter Password>
-mkdir .ssh
-<logout>
-scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+# now on server
+$ mkdir .ssh
+$ <logout>
+# back on client
+$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+# You use your username and the path you saw in the command above
 ```
+
 3. Then you can login the server without password using ssh or scp.
 
 ***
