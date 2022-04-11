@@ -79,12 +79,9 @@ scp WhereAmI.java cs15lsp22xx@ieng6.ucsd.edu:~/
 ```
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 <Enter Password>
-# now on server
-$ mkdir .ssh
-$ <logout>
-# back on client
-$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
-# You use your username and the path you saw in the command above
+mkdir .ssh
+<logout>
+scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 3. Then you can login the server without password using ssh or scp.
 
