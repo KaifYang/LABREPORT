@@ -9,7 +9,8 @@
 
 **The front page of VSCode when successfully setted up**
 
-![The front page of VSCode when successfully setted up](https://github.com/KaifYang/Lab-Report-1/blob/main/vscode.png)
+![vscode](https://user-images.githubusercontent.com/103291661/162793877-d4cff977-ab9e-41b9-b39a-0c081085841c.png)
+ 
 
 ***
 
@@ -26,7 +27,7 @@ ssh cs15lsp22xx@ieng6.ucsd.edu
 
 **This image shows what happens after your are successfully connected to the server.**
 
-![Terminal after connection](https://github.com/KaifYang/Lab-Report-1/blob/main/login.png)
+![login](https://user-images.githubusercontent.com/103291661/162794109-c5b5fd8f-9511-4b71-87a7-d8a14ec5596a.png)
 
 ***
 
@@ -40,7 +41,7 @@ ssh cs15lsp22xx@ieng6.ucsd.edu
 
 **Some examples**
 
-![Some examples](https://github.com/KaifYang/Lab-Report-1/blob/main/try%20some%20commands.png)
+![try some commands](https://user-images.githubusercontent.com/103291661/162794161-ea200900-d5e5-45b3-ac08-d00270abd693.png)
 
 ***
 
@@ -68,7 +69,7 @@ scp WhereAmI.java cs15lsp22xx@ieng6.ucsd.edu:~/
 
 **Here is the whole process of using scp and ssh**
 
-![image](https://github.com/KaifYang/Lab-Report-1/blob/main/copy%20file.png)
+![copy file](https://user-images.githubusercontent.com/103291661/162794193-e672107b-f21c-4d18-8651-414aade3300b.png)
 
 ***
 
@@ -94,7 +95,7 @@ $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/autho
 
 **This is how loging in looks like if the key setup is successful**
 
-![image](https://github.com/KaifYang/Lab-Report-1/blob/main/without%20pass.png)
+![without pass](https://user-images.githubusercontent.com/103291661/162794235-7e9b5d3b-defa-4069-9986-8a5cdce5885a.png)
 
 ***
 
@@ -111,6 +112,6 @@ Combine them together, you are able to directly run the new edition of the Where
 
 **The image of running the file in one line**
 
-![image](https://github.com/KaifYang/Lab-Report-1/blob/main/running%20WAI.png)
+![running WAI](https://user-images.githubusercontent.com/103291661/162794271-65e94c3b-ff41-4166-b49c-81f89bb82581.png)
 
 
