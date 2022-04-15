@@ -3,7 +3,7 @@
 ## Installing VScode
 
 1. Search for VSCode on any search engines.
-2. Download and setup VSCode.
+2. Download and setup VSCode. [Link here](https://code.visualstudio.com/)
 
 ***
 
