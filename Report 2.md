@@ -3,14 +3,13 @@
 ## Change 1
 
 
-![code change diff1](https://github.com/KaifYang/LABREPORT/blob/main/Change1.png)
+![Change1](https://user-images.githubusercontent.com/103291661/165021281-fd9cc4c5-b46e-4dd0-8bdd-297d97f19a9b.png)
 
 
 [Test File](https://github.com/KaifYang/markdown-parser/blob/main/test2.md): Empty file lead to infinite loop.
 
 
-![output1](https://github.com/KaifYang/LABREPORT/blob/main/Run%201.png)
-
+![Run 1](https://user-images.githubusercontent.com/103291661/165021296-0fb5c05f-2549-4960-919a-3f386d53b194.png)
 
 **Symptom: Error showing huge line numbers**
 
@@ -23,13 +22,13 @@ I added a check in the loop so that it will stop if it does not detect any brake
 ## Change 2
 
 
-![code change diff2](https://github.com/KaifYang/LABREPORT/blob/main/Change%202.png)
+![Change 2](https://user-images.githubusercontent.com/103291661/165021326-669eafbc-f90c-423f-b0b3-d0aa71217e62.png)
 
 
 [Test File](https://github.com/KaifYang/markdown-parser/blob/main/test3.md) : The file with the link to image
 
 
-![output2](https://github.com/KaifYang/LABREPORT/blob/main/Run2.png)
+![Run2](https://user-images.githubusercontent.com/103291661/165021335-8ecb8fbb-a420-4228-8f80-a021ce9e875c.png)
 
 
 **Symptom: The result should only return web link but the image link is returned**
@@ -43,13 +42,13 @@ I added another check in the loop to check if there is a "!" mark before the bra
 ## Change 3
 
 
-![code change diff3](https://github.com/KaifYang/LABREPORT/blob/main/Change3.png)
+![Change3](https://user-images.githubusercontent.com/103291661/165021352-dfbc40f0-ac2f-4909-bde1-653f33bc0c3d.png)
 
 
 [Test File](https://github.com/KaifYang/markdown-parser/blob/main/test4.md) : Added a paragraph in a new line in between the two brakets
 
 
-![output3](https://github.com/KaifYang/LABREPORT/blob/main/Run3.png)
+![Run3](https://user-images.githubusercontent.com/103291661/165021362-1fd419d3-ce09-4395-8954-887a3667f8b6.png)
 
 
 **Sympton: The result returned both link while one of the link is invalid in markdown**
