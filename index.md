@@ -6,3 +6,5 @@
 # [Lab Report 3](https://kaifyang.github.io/LABREPORT/lab-report-3-week-6.html)
 
 # [Lab Report 4](https://kaifyang.github.io/LABREPORT/Report4.html)
+
+# [Lab Report 5](https://kaifyang.github.io/LABREPORT/Report5.html)
